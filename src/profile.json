@@ -5,15 +5,25 @@
     "projects": "Projects"
   },
   "company": [
-    "Axient", "SSAI", "Veneklasen", "SSMCI", "Brother"
+    "Astrion", "SSAI", "Veneklasen", "SSMCI", "Brother"
   ],
   "job": [
     {
-      "key": "axient",
-      "company": "Axient",
-      "title": "Software Engineer 2",
+      "key": "astrion",
+      "company": "Astrion",
+      "title": "Senior Software Engineer",
       "responsibility": [
-        "Refreshed the GLOBE account creation form using React, updating the look and feel, as well as improving the functionality of the form, while creating clean and maintable code."
+        "Architecting and developing a User and Organization Control Panel using React, which will serve the more than 400,000 users on the NASA GLOBE website with features including search, filtering, and dynamic routing.",
+        "Built a robust API integration layer using SWR, Axios, and custom hooks to seamlessly communicate between the React frontend and the Java REST services, with built-in unit testing to validate this functionality.",
+        "Designed and implemented a secure RESTful API enabling CRUD operations for user and organization management.",
+        "Optimized API performance by implementing Elasticsearch indexing and aggregation queries, enabling dynamic filtering capabilities.",
+        "Modernized Freemarker form field templates to React based components, which improved maintainability and the user experience for thousands.",
+        "Led a team of 5 through a complex portal system upgrade, coordinating resources and timelines to deliver an on-scheduled solution to NASA.",
+        "Drove development of standardized code review processes with senior team members, reducing deployment overhead, accelerating testing cycles, and promoting knowledge sharing through smaller, more reviewable pull requests.",
+        "Spearheaded a security enhancement initiative, implementing CSRF protection and RBAC authorization across Java MVC Commands and JSP pages.",
+        "Engineered an internal custom Elasticsearch library in Java, helping to reduce search and load times across the GLOBE website by as much as 25%.",
+        "Implemented Constant Contact API integration into the City of Burbank website, which included creating a system that automatically refreshes auth tokens when necessary using cron jobs.",
+        "Collaborated with the DevOps team to implement our Jenkins CI/CD workflows, reducing build failures, and maintain consistent deployment quality."
       ]
     },
     {
@@ -21,6 +31,7 @@
       "company": "Science Systems and Applications, Inc.",
       "title": "Software Develop II",
       "responsibility": [
+        "Implemented asynchronous background processing to resolve bottlenecks that stemmed from the creation of Users and Organizations on the GLOBE website, improving system performance and the user experience.",
         "Led the development on a feature that allows GLOBE Educators to create new GLOBE Students so that their students are able to enter data into the system and interact with the GLOBE website.",
         "Worked on implementing unit testing and to help redesign the development life cycle currently being used during the major upgrade of our Liferay system.",
         "Led the development of a project which gives the users a way to create and join teams, view data, and \"compete\" with other users across the world.",
@@ -99,11 +110,11 @@
     }
   ],
   "skills": {
-    "Server_Side": "Java, JSP, bash, C#, Razor, C++, C",
-    "Client_Side": "HTML5, CSS, JavaScript, ES6",
+    "Server_Side": "Java, SQL, JSP, bash, C#, Razor, C++, C",
+    "Client_Side": "React, HTML, CSS, JavaScript, Typescript, SWR, Axios, Zustand, React Router DOM, Jest",
     "Game Engine": "Unreal Engine 4/5",
     "Database": "PostgreSQL, MSSQL, MySQL",
     "Version_Control": "Bitbucket, Git",
-    "Gaining_Experience": "React, Node.js, Jenkins, Docker, MongoDB, Mongoose"
+    "Gaining_Experience": "Python, Docker"
   }
 }
