@@ -97,7 +97,6 @@
       "key": "messenger",
       "title": "Goodnight Messenger",
       "githubUrl": "https://github.com/djtheseira/Goodnight-Messenger",
-      "url": "https://chrome.google.com/webstore/detail/goodnight-messenger/bcilbljlhllkdhfcocmfodcgnecpbppe?hl=en-US&authuser=2",
       "description": "Google Chrome Extension that gives the Facebook Messenger website a dark theme option.",
       "tools": ["CSS", "JS"]
     },
